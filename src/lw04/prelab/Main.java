@@ -16,7 +16,7 @@ public class Main {
             branches[i] = tempVal;
         }
 
-        // 2. Membaca jumlah target
+        // 2. Membaca  target
         int m = scanner.nextInt();
         int[] targets = new int[m];
         
@@ -26,7 +26,7 @@ public class Main {
         
         scanner.close();
 
-        // 3. Proses Insertion Sort (Descending, 3 Passes)
+        // 3. Proses Insertion Sort
         int maxPasses = 3; // variabel terpisah untuk batas pass
         for (int i = 1; i <= maxPasses && i < n; i++) {
             int key = branches[i];
